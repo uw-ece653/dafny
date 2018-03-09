@@ -1,7 +1,4 @@
 function gcd(m: nat, n: nat): nat
-  requires n >= 1;
-  requires m >= 1;
-  decreases m+n;
 {
   if (n==m) then n
   else if (m>n) then gcd(m-n, n)
