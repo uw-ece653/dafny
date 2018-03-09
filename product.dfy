@@ -7,7 +7,6 @@ method CalcProduct(m: nat, n: nat) returns (res: nat)
   while (m1!=0)
   {
     var n1: nat := n;
-    ghost var old_res := res;
     while (n1!=0)
      {
        res := res+1;
