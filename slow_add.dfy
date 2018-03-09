@@ -1,4 +1,4 @@
-method add_by_one(x:int, y:int) returns (r:int)
+method slow_add(x:int, y:int) returns (r:int)
   ensures r == x + y;
 {
   var i := 0;
